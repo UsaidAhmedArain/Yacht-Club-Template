@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("Images/bg.png");
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.nav-link{
+    font-size: 14px;
+}
+
+.content-heading{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.para{
+    font-size: 14px;
+}
+
+.btns{
+    text-align: right;
+}
+
+.detail-btn{
+    background-color:#428bca;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 5px 18px;
+    transition: all 0.3s linear;
+}
+
+.detail-btn:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.sec-heading{
+    font-weight: 400;
+}
+
+.sec-para{
+    font-weight: 400;
+    word-spacing: normal;
+    font-size: 15px;
+}
+
+.date{
+    text-align: right;
+}
+
+.see-more{
+    text-align: right;
+}
+
+.see-more a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.Copyright{
+    font-weight: 500;
+}
